@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Select Child</h2>
+
+
+<select class="form-control">
+    @foreach (var item in Model)
+    {
+        <option>
+            @item
+        </option>
+    }
+</select>
+
+<div class="form-group">
+    <button class="btn btn-block btn-primary">
+        GO
+    </button>
+</div>
+
